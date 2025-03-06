@@ -1,8 +1,8 @@
 import Image from "next/image";
 const AppAwaits = () => {
   return (
-    <div className="w-full m-4 p-2">
-      <h2 className="text-4xl text-center mb-4 text-[#2c2409]">
+    <div className="w-full py-4 bg-[#FFE086]">
+      <h2 className="text-4xl text-center font-bold my-4 text-[#161204]">
         Your App Awaits
       </h2>
       <div className="flex justify-around">
@@ -18,7 +18,6 @@ const AppAwaits = () => {
             alt="Placeholder image"
             width={500}
             height={400}
-            className=""
           />
         </div>
       </div>

@@ -3,6 +3,7 @@ import CardHolder from "./_components/CardHolder";
 import EarningOpportunities from "./_components/EarningOpportunity";
 import HeroSection from "./_components/Hero";
 import Image from "next/image";
+import NewsletterSignup from "./_components/NewsLetter";
 
 export default function Home() {
   return (
@@ -80,6 +81,7 @@ export default function Home() {
       </CardHolder>
       <EarningOpportunities />
       <AppAwaits />
+      <NewsletterSignup />
     </>
   );
 }

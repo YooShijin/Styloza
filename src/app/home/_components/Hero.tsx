@@ -52,7 +52,7 @@ const HeroSection = () => {
           </p>
 
           {/* Download Buttons */}
-          <div className="flex justify-start gap-5">
+          <div className="flex justify-start items-center gap-5">
             <Link href="https://play.google.com/store/apps/details?id=com.styloza.app">
               <Image
                 src="/misc/playStoreButton1.svg"

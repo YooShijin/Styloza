@@ -32,19 +32,17 @@ const EarningOpportunities = () => {
     <div className="relative w-full max-w-[1117px] mx-auto my-12 p-6 border border-[#C59815] rounded-[20px]">
       {/* Section Header */}
       <div className="flex justify-center mb-8">
-        <div className="w-[323px] bg-[#083248] rounded-[20px] flex">
-          <div className="w-[82px] flex items-center justify-center rounded-[20px] text-[#FFEBB3]">
-            Client
-          </div>
-          <div className="w-[188px] bg-[#C59815] rounded-[20px] flex items-center justify-center text-[#FFFCF2]">
-            Service Provider
-          </div>
-        </div>
+        <Image
+          src={"/svgs/clientServer.svg"}
+          alt="Hue Hue Hue"
+          height={110}
+          width={300}
+        />
       </div>
 
       {/* Subtitle */}
-      <div className="text-center text-[#083248] mb-8">
-        <p className="text-xl">
+      <div className="text-center text-[#083248] mb-8 flex justify-center">
+        <p className="text-xl w-xl">
           Become a Profit Powerhouse- time&apos;s ticking. Get started with
           Styloza today and watch your earnings grow.
         </p>
@@ -53,12 +51,11 @@ const EarningOpportunities = () => {
       {/* Content Container */}
       <div className="flex items-center justify-center gap-5">
         {/* Image Section */}
-        <div className="w-[564px] h-[488px] bg-gray-200 rounded-[50px] mr-8">
+        <div className="w-[564px] h-[488px] relative bg-gray-200 rounded-[50px] mr-8">
           <Image
-            src="/placeholder-image.jpg"
+            src="/images/tailorWorking1.png"
             alt="Earning Opportunities"
-            width={564}
-            height={488}
+            fill
             className="rounded-[50px] object-cover"
           />
         </div>
